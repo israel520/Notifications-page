@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:rgb(238, 236, 236);
+}
+.uno {
+    border-radius: 20px;
+}
+.main {
+    background-color:white ;
+    width: 600px;
+    height: 98vh;
+    margin-left: 400px;
+    border-radius: 10px;      
+}
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    margin-top: 30px;   
+}
+#bold {
+    font-weight: bold;
+    font-size: large;
+    color: hsl(224, 21%, 14%);
+}
+#small {
+    color:hsl(219, 12%, 42%) ;
+}
+#A {
+color:  hsl(212, 55%, 94%);
+border: solid 1px rgb(24, 24, 61);
+background-color: hsl(224, 21%, 14%);
+font-size: 14px;
+padding:2px 3px 2px 3px;
+border-radius: 3px;
+}
+.two ,.three, .four,.five, .six ,.seven,.eight{
+background-color:rgb(230, 230, 230);
+margin:10px 20px 10px 20px;
+height: 60px;
+border-radius: 5px;
+display: flex;
+padding-top:10px;
+}
+.two img {
+    width: 40px;
+    padding-left: 6px;
+    margin-right: 8px;  
+}
+img {
+    width: 40px;
+    padding-left: 6px;
+    margin-right: 8px;
+}
+.five {
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.five,.six,.seven,.eight {
+    background-color: white;
+}
+#msg {
+    margin-left: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-left: 10px;
+    width: 500px;
+    border: solid 1px hsl(219, 12%, 42%) ;
+    border-radius: 5px;
+}
+#img {
+    margin-left: 175px;
+    width: 30px;
+}
+.seven,.six {
+    height:65px ;
+}
+p {
+    color:hsl(219, 12%, 42%) ;
+}
+.span1 {
+color: hsl(224, 21%, 14%);
+font-weight: bold;
+}
+.span2 {
+    font-weight: bold;
+    color:hsl(219, 21%, 31%)
+}
+.span1:hover {
+    color: rgb(0, 32, 128);
+}
+.span2:hover{
+    color: rgb(0, 32, 128);
+}
+.span3 {
+    font-weight: bold;
+    color: rgb(0, 32, 128);
+}
+.span1,.span2,.span3:hover {
+    cursor: pointer;
+}
+
+
